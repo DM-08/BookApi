@@ -1,0 +1,4 @@
+﻿# IActionResult
+- used to define various types of responses that a controller action can return. 
+- It allows for flexibility in returning different types of HTTP responses
+(e.g., views, data, files, or custom results) based on the request or logic.
