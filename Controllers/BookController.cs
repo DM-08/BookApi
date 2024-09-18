@@ -1,13 +1,15 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BookApi.Data;
+using BookApi.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace BookApi.Controllers
 {
     [Route("api/[controller]")]
     public class BookController : Controller
     {
-        private readonly BookRepository bookRepository;
+        private readonly BookRepository _bookRepository;
 
-        public BooksController()
+        public BookController()
         {
             _bookRepository = new BookRepository();
         }

@@ -2,7 +2,7 @@
 
 namespace BookApi.Data
 {
-    public class BookRepositiory
+    public class BookRepository
     {
         private List<Book> _books = new List<Book>
         {
